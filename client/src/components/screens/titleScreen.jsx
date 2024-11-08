@@ -35,7 +35,7 @@ export default function TitleScreen() {
           icon={faAngleLeft}
           className="bg-black bg-opacity-50 border border-black rounded-full size-5 p-2"
         />
-        <div className="w-full flex overflow-x-scroll scroll-smooth">
+        <div className="w-full flex overflow-x-hidden">
           <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
           <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
           <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
