@@ -10,15 +10,6 @@ import { useRef } from "react";
 export default function TitleScreen() {
   // TODO: add scrolling to buttons
   // TODO: add scaling for larger devices
-  const scrollRef = useRef(null);
-
-  function scrollLeft() {
-    console.log("left");
-  }
-
-  function scrollRight() {
-    console.log("right");
-  }
 
   return (
     <div className="w-screen h-screen flex flex-col overflow-hidden">
@@ -43,9 +34,8 @@ export default function TitleScreen() {
         <FontAwesomeIcon
           icon={faAngleLeft}
           className="bg-black bg-opacity-50 border border-black rounded-full size-5 p-2"
-          onClick={scrollLeft}
         />
-        <div className="flex overflow-x-scroll snap-mandatory scrollbar-none">
+        <div className="w-full flex overflow-x-scroll scroll-smooth">
           <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
           <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
           <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
@@ -53,7 +43,6 @@ export default function TitleScreen() {
         <FontAwesomeIcon
           icon={faAngleRight}
           className="bg-black bg-opacity-50 border border-black rounded-full size-5 p-2"
-          onClick={scrollRight}
         />
       </div>
     </div>
