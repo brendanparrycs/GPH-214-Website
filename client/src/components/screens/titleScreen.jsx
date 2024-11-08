@@ -1,14 +1,9 @@
 import { ShootingStars } from "../ui/shooting-stars";
 import { StarsBackground } from "../ui/stars-background";
 import jupiter from "../../images/jupiter.png";
-import VerticalDivider from "../verticalDivider";
-import SubSection from "../subSection";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { useRef } from "react";
+import MobileSlider from "../mobileSlider";
 
 export default function TitleScreen() {
-  // TODO: add scrolling to buttons
   // TODO: add scaling for larger devices
 
   return (
@@ -29,21 +24,8 @@ export default function TitleScreen() {
         <ShootingStars />
         <StarsBackground />
       </div>
-      {/* Subsection */}
-      <div className="h-1/6 bg-space-gray px-4 flex justify-between items-center">
-        <FontAwesomeIcon
-          icon={faAngleLeft}
-          className="bg-black bg-opacity-50 border border-black rounded-full size-5 p-2"
-        />
-        <div className="w-full flex overflow-x-hidden">
-          <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
-          <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
-          <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
-        </div>
-        <FontAwesomeIcon
-          icon={faAngleRight}
-          className="bg-black bg-opacity-50 border border-black rounded-full size-5 p-2"
-        />
+      <div className="h-1/6 bg-space-gray flex items-center justify-between px-4">
+        <MobileSlider />
       </div>
     </div>
   );
