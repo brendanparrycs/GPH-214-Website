@@ -17,7 +17,7 @@ export default function MobileSlider() {
   };
 
   return (
-    <>
+    <div className="w-full h-full flex items-center justify-between px-4 md:hidden">
       <FontAwesomeIcon
         icon={faAngleLeft}
         className="bg-black bg-opacity-50 border border-black rounded-full size-5 p-2"
@@ -39,6 +39,6 @@ export default function MobileSlider() {
         className="bg-black bg-opacity-50 border border-black rounded-full size-5 p-2"
         onClick={() => slider?.current?.slickNext()}
       />
-    </>
+    </div>
   );
 }
