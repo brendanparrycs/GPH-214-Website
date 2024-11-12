@@ -10,4 +10,18 @@
     @apply tracking-widest;
     @apply text-white;
   }
+
+  /* Chrome, Safari, and Opera */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hidden {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  body {
+    @apply overflow-x-hidden;
+  }
 }
