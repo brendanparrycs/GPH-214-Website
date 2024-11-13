@@ -1,8 +1,9 @@
-# React + Vite
+# Jupiter Meteorology Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website was made to make comparisons between Earth and Jupiter's weather systems while also offering other facts about Jupiter.
 
-Currently, two official plugins are available:
+Currently makes use of the following:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [NASA's Horizon Api](https://ssd-api.jpl.nasa.gov/doc/horizons.html) for realtime information on Jupiter.
+- [NASA's Jupiter Website](https://science.nasa.gov/jupiter/) as inspiration.
+- [Nullschool](https://earth.nullschool.net/#2024/11/08/0800Z/wind/isobaric/70hPa/orthographic=-76.46,0.00) for mostly-accurate depictions of earth's weather systems.
