@@ -4,7 +4,7 @@ import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import Slider from "react-slick";
 import { useRef } from "react";
 
-export default function MobileSlider() {
+export default function MobileSlider({ RG, orbit, solarConstant }) {
   const slider = useRef(null);
 
   const settings = {
@@ -25,13 +25,17 @@ export default function MobileSlider() {
       />
       <Slider ref={slider} {...settings} className="w-3/4">
         <div>
-          <SubSection title="Distance from Sun" value="XXX,XXX,XXX" unit="MI" />
+          <SubSection title="Distance from Sun" value={RG} unit="MI" />
         </div>
         <div>
-          <SubSection title="Length of Year" value="4,333" unit="Days" />
+          <SubSection title="Axial Tilt" value={orbit} unit="DEG" />
         </div>
         <div>
-          <SubSection title="Axial Tilt" value="3.13" unit="Degrees" />
+          <SubSection
+            title="Solar Constant"
+            value={solarConstant}
+            unit={`W/m\u00B2`}
+          />
         </div>
       </Slider>
       <FontAwesomeIcon

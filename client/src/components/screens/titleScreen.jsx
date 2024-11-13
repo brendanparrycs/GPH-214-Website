@@ -63,7 +63,7 @@ export default function TitleScreen({ horizonsData }) {
         <StarsBackground />
       </div>
       <div className="h-1/6 bg-light-space-gray flex items-center justify-between z-50">
-        <MobileSlider />
+        <MobileSlider RG={RG} orbit={orbit} solarConstant={solarConstant} />
         <div className="hidden w-full h-full md:flex items-center justify-between p-6">
           <SubSection title="Distance from Sun" value={RG} unit="MI" />
           <VerticalDivider className="bg-black" />
