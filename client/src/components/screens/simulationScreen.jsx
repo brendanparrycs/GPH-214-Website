@@ -39,7 +39,7 @@ export default function SimulationScreen() {
         <a
           href="https://eyes.nasa.gov"
           target="_blank"
-          className="text-red-500 underline underline-offset-2"
+          className="text-dark-saturated-red underline underline-offset-2"
         >
           eyes.nasa.gov
         </a>{" "}

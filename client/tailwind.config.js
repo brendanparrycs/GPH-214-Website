@@ -8,6 +8,7 @@ export default {
       colors: {
         "light-space-gray": "#3B3B3B",
         "dark-space-gray": "#1C1C1C",
+        "dark-saturated-red": "#EB0000",
       },
       borderWidth: {
         3: "3px",
