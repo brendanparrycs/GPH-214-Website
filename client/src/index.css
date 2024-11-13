@@ -17,19 +17,24 @@
   }
 
   ::-webkit-scrollbar-track {
-    @apply bg-black;
+    @apply bg-[#343434];
   }
 
   ::-webkit-scrollbar-thumb {
     @apply rounded-md;
-    @apply bg-light-space-gray;
+    @apply bg-[#2C2C2C];
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    @apply bg-dark-space-gray;
+    @apply bg-[#242424];
   }
 
   body {
     @apply overflow-x-hidden;
   }
+}
+
+/* Not in a layer because react slick is weird with tailwindcss */
+.slick-dots li button::before {
+  @apply text-white !important;
 }
