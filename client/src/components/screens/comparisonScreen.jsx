@@ -10,7 +10,7 @@ export default function ComparisonScreen() {
     <div className="w-screen bg-dark-space-gray p-8 flex flex-col gap-8">
       {/* Why Jupiter? Section */}
       <div className="flex flex-col gap-4">
-        <h2 className="text-red-700 text-xl">Why Jupiter?</h2>
+        <h2 className="text-red-600 text-xl">Why Jupiter?</h2>
         <p className="text-sm">
           Lorem ipsum odor amet, consectetuer adipiscing elit. Habitant auctor
           phasellus interdum nec, at mollis non facilisi accumsan. Euismod
@@ -24,7 +24,9 @@ export default function ComparisonScreen() {
           <div className="flex gap-8 overflow-x-scroll scrollbar-hidden">
             {sections.map((section, index) => (
               <button
-                className={`text-sm text-nowrap transition-colors duration-300 ${currentSection !== index ? "text-gray-400" : ""}`}
+                className={`text-sm text-nowrap transition-colors duration-300 ${
+                  currentSection !== index ? "text-gray-400" : ""
+                }`}
                 key={index}
                 onClick={() => setCurrentSection(index)}
               >

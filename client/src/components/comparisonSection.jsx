@@ -5,7 +5,7 @@ export default function ComparisonSection() {
     <div className="flex flex-col gap-4 md:flex-row md:gap-0 md:justify-between">
       <div className="flex flex-col gap-4 md:w-1/2">
         <div>
-          <h2 className="text-red-700 text-xl">Section Title</h2>
+          <h2 className="text-red-600 text-xl">Section Title</h2>
           <p className="text-xs text-gray-400">
             Lorem ipsum odor amet, consectetuer adipiscing elit.
           </p>

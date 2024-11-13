@@ -5,7 +5,7 @@ export default function SubSection({ title, value, unit }) {
         <h2 className="text-lg md:text-xl xl:text-2xl">{title}</h2>
         <p className="flex items-end gap-2 md:text-lg xl:text-xl">
           {value}
-          <span className="text-red-700 text-xs md:text-sm xl:text-base">
+          <span className="text-red-500 text-xs md:text-sm xl:text-base">
             {unit}
           </span>
         </p>
