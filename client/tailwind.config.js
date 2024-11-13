@@ -9,6 +9,9 @@ export default {
         "light-space-gray": "#3B3B3B",
         "dark-space-gray": "#1C1C1C",
       },
+      borderWidth: {
+        3: "3px",
+      },
     },
   },
   plugins: [

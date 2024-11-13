@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import TitleScreen from "./components/screens/titleScreen";
 import axios from "axios";
 import ComparisonScreen from "./components/screens/comparisonScreen";
+import SimulationScreen from "./components/screens/simulationScreen";
 
 export default function App() {
   // TODO: Add a loading animation when waiting for the query to finish
@@ -18,6 +19,7 @@ export default function App() {
     <>
       <TitleScreen horizonsData={horizonsData} />
       <ComparisonScreen />
+      <SimulationScreen />
     </>
   );
 }
