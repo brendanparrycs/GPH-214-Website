@@ -12,6 +12,18 @@ export default {
       borderWidth: {
         3: "3px",
       },
+      keyframes: {
+        blink: {
+          "0%": { opacity: "0" },
+          "25%": { opacity: "1" },
+          "50%": { opacity: "1" },
+          "75%": { opacity: "0" },
+          "100%": { opacity: "0" },
+        },
+      },
+      animation: {
+        blink: "blink 3s infinite ease-in-out",
+      },
     },
   },
   plugins: [

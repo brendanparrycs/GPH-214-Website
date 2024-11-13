@@ -8,7 +8,7 @@ const horizonsResolver = async () => {
       .split("T")[0];
 
     const response = await axios.get(
-      `https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND='599'&OBJ_DATA='YES'&MAKE_EPHEM='YES'&EPHEM_TYPE='VECTORS'&CENTER='@sun'&START_TIME='${startTime}'&STOP_TIME='${stopTime}'&STEP_SIZE=''`
+      `https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND='599'&OBJ_DATA='YES'&MAKE_EPHEM='YES'&EPHEM_TYPE='VECTORS'&CENTER='@sun'&START_TIME='${startTime}'&STOP_TIME='${stopTime}'&STEP_SIZE='17280'`
     );
 
     return response.data;
