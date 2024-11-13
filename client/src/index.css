@@ -11,6 +11,10 @@
     @apply text-white;
   }
 
+  body {
+    @apply overflow-x-hidden;
+  }
+
   /* Chrome, Safari, and Opera */
   ::-webkit-scrollbar {
     @apply w-2;
@@ -29,8 +33,15 @@
     @apply bg-[#242424];
   }
 
-  body {
-    @apply overflow-x-hidden;
+  /* Firefox */
+  ::-moz-selection {
+    @apply text-white;
+    @apply bg-orange-500;
+  }
+
+  ::selection {
+    @apply text-white;
+    @apply bg-orange-500;
   }
 }
 
