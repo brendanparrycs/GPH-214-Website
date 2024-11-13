@@ -4,9 +4,14 @@ import jupiter from "../../images/jupiter.png";
 import MobileSlider from "../mobileSlider";
 import SubSection from "../subSection";
 import VerticalDivider from "../verticalDivider";
+import { useEffect } from "react";
 
-export default function TitleScreen() {
+// TODO: fix this stupid error that shouldn't be here
+export default function TitleScreen({ horizonsData }) {
   // TODO: add NASA API for information
+  useEffect(() => {
+    console.log(horizonsData);
+  }, [horizonsData]);
 
   return (
     <div className="w-screen h-screen flex flex-col overflow-hidden">
@@ -29,7 +34,7 @@ export default function TitleScreen() {
         <StarsBackground />
       </div>
       {/* Subsection */}
-      <div className="h-1/6 bg-space-gray flex items-center justify-between z-50">
+      <div className="h-1/6 bg-light-space-gray flex items-center justify-between z-50">
         <MobileSlider /> {/* Only displays on mobile */}
         {/* Ipad and larger screen view */}
         <div className="hidden w-full h-full md:flex items-center justify-between p-6">

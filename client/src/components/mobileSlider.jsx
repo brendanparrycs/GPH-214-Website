@@ -8,7 +8,7 @@ export default function MobileSlider() {
   const slider = useRef(null);
 
   const settings = {
-    dots: false,
+    dots: true,
     arrows: false,
     infinite: true,
     speed: 500,
