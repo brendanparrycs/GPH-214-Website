@@ -57,7 +57,7 @@ export default function TitleScreen({ horizonsData }) {
         </div>
         <img
           src={jupiter}
-          className="scale-150 brightness-50 z-10 absolute -translate-x-2 translate-y-12 sm:right-0 xl:scale-125"
+          className="scale-150 brightness-50 z-10 absolute -translate-x-2 translate-y-12 sm:right-0 xl:scale-125 select-none"
         />
         <ShootingStars />
         <StarsBackground />
