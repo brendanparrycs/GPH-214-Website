@@ -12,10 +12,12 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/horizons").then((response) => {
-      setHorizonsData(response.data);
-      setLoading(false);
-    });
+    axios
+      .get("https://us-west2-gph-214-website.cloudfunctions.net/nasa-horizons")
+      .then((response) => {
+        setHorizonsData(response.data);
+        setLoading(false);
+      });
   }, []);
 
   if (loading) return <LoadingScreen />;
