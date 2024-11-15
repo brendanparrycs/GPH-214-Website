@@ -1,0 +1,3 @@
+steps:
+  - name: "gcr.io/cloudbuild/docker"
+    args: ["build", "-t", "gph-214-website", "-f", "client/Dockerfile", "."]
