@@ -1,7 +1,5 @@
 FROM node:20-alpine
 
-RUN MKDIR -p /usr/src/app
-
 WORKDIR /usr/src/app
 
 COPY . .
