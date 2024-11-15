@@ -1,7 +1,6 @@
-# Jupiter Meteorology Website
+# [Jupiter Meteorology Website](https://gph-214-website-252299873993.us-west1.run.app)
 
 This website was made to make comparisons between Earth and Jupiter's weather systems while also offering other facts about Jupiter.
-[Link to Website](https://gph-214-website-252299873993.us-west1.run.app)
 
 Currently makes use of the following:
 
