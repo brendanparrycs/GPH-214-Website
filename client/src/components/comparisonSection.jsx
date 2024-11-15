@@ -1,5 +1,3 @@
-import placeholderImage from "../images/placeholderImage.avif";
-
 export default function ComparisonSection() {
   return (
     <div className="flex flex-col gap-4 md:flex-row md:gap-0 md:justify-between">
@@ -18,7 +16,10 @@ export default function ComparisonSection() {
           Justo magnis mollis, amet ullamcorper orci suspendisse dignissim.
         </p>
       </div>
-      <img src={placeholderImage} className="w-96 mx-auto md:mx-0" />
+      <img
+        src="https://storage.cloud.google.com/gph-214-react-images/placeholderImage.avif?authuser=2"
+        className="w-96 mx-auto md:mx-0"
+      />
     </div>
   );
 }

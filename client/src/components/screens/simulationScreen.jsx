@@ -27,7 +27,7 @@ export default function SimulationScreen() {
         </span>
         <iframe
           src="https://eyes.nasa.gov/apps/solar-system/#/jupiter"
-          className={`w-full h-full transition-all duration-300 ${
+          className={`w-full h-full transition-all duration-300 aspect-video ${
             loadSimulation ? "blur-none" : "blur-sm"
           }`}
           style={{ pointerEvents: loadSimulation ? "auto" : "none" }}

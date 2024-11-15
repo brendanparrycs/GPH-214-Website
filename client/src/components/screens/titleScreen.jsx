@@ -1,6 +1,5 @@
 import { ShootingStars } from "../ui/shooting-stars";
 import { StarsBackground } from "../ui/stars-background";
-import jupiter from "../../images/jupiter.png";
 import MobileSlider from "../mobileSlider";
 import SubSection from "../subSection";
 import VerticalDivider from "../verticalDivider";
@@ -56,7 +55,7 @@ export default function TitleScreen({ horizonsData }) {
           </p>
         </div>
         <img
-          src={jupiter}
+          src="https://storage.cloud.google.com/gph-214-react-images/jupiter.png?authuser=2"
           className="scale-150 brightness-50 z-10 absolute -translate-x-2 translate-y-12 sm:right-0 xl:scale-125 select-none"
         />
         <ShootingStars />
