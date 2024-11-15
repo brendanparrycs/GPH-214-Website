@@ -6,11 +6,14 @@ COPY package*.json ./
 
 RUN npm install
 
-RUN npm i -g serve
-
 COPY . .
 
+# Fix permissions for node_modules binaries (like vite)
+RUN find ./node_modules/.bin -type f -exec chmod 755 {} \;
+
 RUN npm run build
+
+RUN npm install -g serve
 
 EXPOSE 3000
 
