@@ -27,7 +27,6 @@ export default function App() {
       <TitleScreen horizonsData={horizonsData} />
       <ComparisonScreen />
       <SimulationScreen />
-      <h1 className="text-red-500 text-8xl">MONKEY TIME</h1>
     </>
   );
 }
