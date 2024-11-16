@@ -17,7 +17,7 @@ export default function ComparisonSection() {
         </p>
       </div>
       <img
-        src="https://storage.cloud.google.com/gph-214-react-images/placeholderImage.avif?authuser=2"
+        src="https://storage.googleapis.com/gph-214-react-images/placeholderImage.avif"
         className="w-96 mx-auto md:mx-0"
       />
     </div>

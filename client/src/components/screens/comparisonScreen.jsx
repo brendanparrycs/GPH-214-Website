@@ -4,7 +4,13 @@ import ComparisonSection from "../comparisonSection";
 export default function ComparisonScreen() {
   // TODO: Add functionality to swapping between sections
   const [currentSection, setCurrentSection] = useState(0);
-  const sections = ["Section 1", "Section 2", "Section 3", "Section 4"];
+  const sections = [
+    "Atmospheric Composition",
+    "Energy Sources and Heat Transport",
+    "Storm Systems",
+    "Cloud Layers and Structures",
+    "Atmospheric Pressure and Density",
+  ];
 
   return (
     <div className="w-screen bg-dark-space-gray p-8 flex flex-col gap-8">
@@ -12,10 +18,15 @@ export default function ComparisonScreen() {
       <div className="flex flex-col gap-4">
         <h2 className="text-red-700 text-xl">Why Jupiter?</h2>
         <p className="text-sm">
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Habitant auctor
-          phasellus interdum nec, at mollis non facilisi accumsan. Euismod
-          platea placerat efficitur aliquam felis suscipit. Ac tincidunt a nibh
-          mollis orci etiam platea cursus id.
+          Jupiter's atmosphere has many striking similarities and differences to
+          Earth's. Due to its massive size and lack of a solid surface, Jupiter
+          has large-scale weather patterns very similar to Earth's. These
+          phenomena mirror Earth's processes, such as storm formation, heat
+          transport, and convection, but occur on a far larger scale with longer
+          lifespans. Its internal heat and rapid rotation drive powerful zonal
+          winds and storms, like the Great Red Spot, providing a unique
+          opportunity for scientists to study atmospheric dynamics that help
+          refine our understanding of Earth's meteorology.
         </p>
       </div>
       {/* Comparison Section */}

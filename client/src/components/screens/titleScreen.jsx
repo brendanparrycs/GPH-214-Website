@@ -50,12 +50,14 @@ export default function TitleScreen({ horizonsData }) {
             Jupiter
           </h1>
           <p className="text-sm md:text-base">
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Lorem ipsum
-            odor amet, consectetuer adipiscing elit.
+            Jupiter is the largest planet in our solar system, made up primarily
+            of hydrogen and helium, with a dynamic atmosphere driven by internal
+            heat, rapid rotation, and vibrant cloud layers distinct from Earth's
+            weather systems.
           </p>
         </div>
         <img
-          src="https://storage.cloud.google.com/gph-214-react-images/jupiter.png?authuser=2"
+          src="https://storage.googleapis.com/gph-214-react-images/jupiter.png"
           className="scale-150 brightness-50 z-10 absolute -translate-x-2 translate-y-12 sm:right-0 xl:scale-125 select-none"
         />
         <ShootingStars />
