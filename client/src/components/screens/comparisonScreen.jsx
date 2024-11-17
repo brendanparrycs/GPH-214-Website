@@ -1,16 +1,10 @@
 import { useState } from "react";
 import ComparisonSection from "../comparisonSection";
+import sections from "../../helpers/sections.json";
 
 export default function ComparisonScreen() {
   // TODO: Add functionality to swapping between sections
   const [currentSection, setCurrentSection] = useState(0);
-  const sections = [
-    "Atmospheric Composition",
-    "Energy Sources and Heat Transport",
-    "Storm Systems",
-    "Cloud Layers and Structures",
-    "Atmospheric Pressure and Density",
-  ];
 
   return (
     <div className="w-screen bg-dark-space-gray p-8 flex flex-col gap-8">
@@ -35,17 +29,25 @@ export default function ComparisonScreen() {
           <div className="flex gap-8 overflow-x-scroll scrollbar-hidden">
             {sections.map((section, index) => (
               <button
-                className={`text-sm text-nowrap transition-colors duration-300 ${currentSection !== index ? "text-gray-400" : ""}`}
+                className={`text-sm text-nowrap transition-colors duration-300 ${
+                  currentSection !== index ? "text-gray-400" : ""
+                }`}
                 key={index}
                 onClick={() => setCurrentSection(index)}
               >
-                {section}
+                {section.title}
               </button>
             ))}
           </div>
           <hr className="border-orange-500" />
         </div>
-        <ComparisonSection />
+        <ComparisonSection
+          title={sections[currentSection].title}
+          caption={sections[currentSection].caption}
+          paragraph1={sections[currentSection].paragraph1}
+          paragraph2={sections[currentSection].paragraph2}
+          image={sections[currentSection].image}
+        />
       </div>
     </div>
   );

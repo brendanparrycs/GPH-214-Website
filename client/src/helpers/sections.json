@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Atmospheric Composition",
+    "caption": "The composition of a planet’s atmosphere shapes its unique weather and cloud dynamics.",
+    "paragraph1": "Jupiter's atmosphere is composed primarily of hydrogen and helium, with trace amounts of methane, ammonia, and water vapor, reflecting its origins as a gas giant. These elements create a lightweight and extensive atmosphere that extends deep into the planet, allowing for unique weather phenomena. Earth's atmosphere, by contrast, consists mostly of nitrogen (78%) and oxygen (21%), with minor components like argon, carbon dioxide, and variable water vapor. This fundamental difference in composition underpins the distinct meteorological processes observed on both planets.",
+    "paragraph2": "Despite these disparities, there are parallels in atmospheric behavior. On Earth, trace water vapor drives weather systems, while on Jupiter, ammonia and ammonium hydrosulfide contribute to cloud formation and storm development. However, Jupiter’s hydrogen and helium atmosphere is less dense overall and lacks the oxygen-driven chemical interactions seen on Earth. These differences highlight the role of atmospheric composition in shaping planetary weather systems.",
+    "image": "https://storage.googleapis.com/gph-214-react-images/atmospheric-composition.png"
+  },
+  {
+    "title": "Energy Sources and Heat Transport",
+    "caption": "Heat sources drive the unique atmospheric dynamics of both Earth and Jupiter.",
+    "paragraph1": "Jupiter's weather systems are powered by both solar energy and significant internal heat, setting it apart from Earth, which relies almost exclusively on solar radiation. Jupiter emits nearly twice as much heat as it absorbs from the Sun due to residual heat from its formation and ongoing slow gravitational contraction. This internal energy drives powerful zonal jets, turbulent storms, and large-scale heat distribution across its atmosphere, creating its signature banded appearance.",
+    "paragraph2": "Earth, on the other hand, uses solar radiation to generate convection currents and temperature gradients that influence its weather systems. Unlike Jupiter, Earth’s energy flow is moderated by its surface features, such as oceans and continents, which distribute heat unevenly. Jupiter’s rapid rotation further contributes to efficient lateral heat transport, sustaining features like the Great Red Spot for centuries, whereas Earth’s storms are relatively short-lived.",
+    "image": "https://storage.googleapis.com/gph-214-react-images/energy-sources-and-heat-transport.jpg"
+  },
+  {
+    "title": "Storm Systems",
+    "caption": "Jupiter’s massive, enduring storms contrast sharply with Earth’s transient weather systems.",
+    "paragraph1": "Jupiter’s storm systems, such as the Great Red Spot, are vast and long-lasting, persisting for centuries due to the planet’s immense energy reserves and the absence of a solid surface to dissipate energy. This iconic storm is fueled by internal heat and maintained by interactions with surrounding jet streams. Earth’s storms, by contrast, are comparatively transient, lasting days to weeks as they lose energy when moving over land or cooler regions.",
+    "paragraph2": "Despite their differences in scale and duration, both planets exhibit similar storm dynamics driven by convection and heat transfer. On Jupiter, lightning activity associated with deep water clouds energizes its cyclonic and anticyclonic systems, while Earth’s storms, such as hurricanes and cyclones, rely on solar heating of the oceans. These similarities reflect fundamental meteorological principles, while the differences highlight the influence of planetary size and energy sources.",
+    "image": "https://storage.googleapis.com/gph-214-react-images/storm-systems.jpg"
+  },
+  {
+    "title": "Cloud Layers and Structures",
+    "caption": "Jupiter’s clouds are layered and chemically diverse, unlike Earth’s simpler water-vapor clouds.",
+    "paragraph1": "Jupiter’s cloud layers are distinctively stratified, with ammonia clouds in the upper atmosphere, ammonium hydrosulfide clouds below, and water clouds at deeper levels. These layers form due to temperature and pressure gradients and contribute to the planet’s vibrant banded appearance. The chemical diversity within Jupiter’s atmosphere, combined with its depth, creates dynamic and colorful cloud structures.",
+    "paragraph2": "Earth’s clouds, primarily composed of water vapor, form within the troposphere but can occasionally extend into the lower stratosphere, as seen with cumulonimbus clouds. Unlike Jupiter, Earth lacks multi-layered cloud systems, as its atmosphere is thinner and less chemically diverse. Both planets rely on condensation processes for cloud formation, yet Jupiter’s cloud layers are far more complex, offering insight into the interactions between atmospheric chemistry and planetary weather.",
+    "image": "https://storage.googleapis.com/gph-214-react-images/cloud-layers-and-structures.gif"
+  },
+  {
+    "title": "Atmospheric Pressure and Density",
+    "caption": "Jupiter’s immense gravity creates pressures millions of times higher than Earth’s.",
+    "paragraph1": "Jupiter’s immense gravity results in extraordinarily high atmospheric pressure, with estimates suggesting that pressures at deeper levels could reach millions of times Earth’s sea-level pressure. This compressive force transforms hydrogen gas into a metallic liquid, which may contribute to the planet’s powerful magnetic field and unique atmospheric dynamics.",
+    "paragraph2": "In contrast, Earth’s atmospheric pressure averages 1 atmosphere (1013.25 millibars) at sea level and decreases steadily with altitude. The sharp boundary between Earth’s atmosphere and surface creates distinct pressure gradients that influence weather systems. On Jupiter, pressure changes occur across a much greater scale, supporting deep weather layers and maintaining long-lived storms like the Great Red Spot. These differences underscore how planetary size and composition shape atmospheric behavior.",
+    "image": "https://storage.googleapis.com/gph-214-react-images/atmospheric-pressure-and-density.png"
+  }
+]
