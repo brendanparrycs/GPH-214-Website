@@ -47,6 +47,8 @@ export default function ComparisonScreen() {
           paragraph1={sections[currentSection].paragraph1}
           paragraph2={sections[currentSection].paragraph2}
           image={sections[currentSection].image}
+          credits={sections[currentSection].credits}
+          link={sections[currentSection].link}
         />
       </div>
     </div>
